@@ -1,0 +1,23 @@
+{
+    "trigger" : {
+        "level" : 5e-3,
+        "delay" : 100,
+        "source" : "RP_TRIG_SRC_CHA_PE"
+    },
+    "sampling" : {
+        "rate": "RP_SMP_125M",
+        "decimation" : "RP_DEC_1"
+    },
+    "samples" : 1000,
+    "samplim" : 6250,
+    "debug_iterations" : 10,
+    "iterations" : 1000,
+    "short" : 500e-9,
+    "long" : 1e-6,
+	"pulses" : 10,
+	"print_raw" : 10,
+	"raw_file" : "signals.csv",
+	"filter_window" : 7,
+	"time_window_threshold" : 1e-3,
+	"TimeWindowThreshold" : 7
+}
